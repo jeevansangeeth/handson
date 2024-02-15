@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <h3 id="heading-york-admission">York Admission</h3>
+    <form action="" onsubmit="return display(event)">
+    <table>
+      <tr>
+        <td>Student Name</td>
+        <td><input id="sname" placeholder="Enter the student name" type="text" required pattern="[A-Za-z ]+"/></td>
+      </tr>
+      <tr>
+        <td>Phone Number</td>
+        <td><input id="phno" type="tel" placeholder="Enter the phone number" required pattern="[789][0-9]{9}"/></td>
+      </tr>
+      <tr>
+        <td>Admission id</td>
+        <td><input id="aid" type="text" placeholder="Enter the admission id" required/></td>
+      </tr>
+      <tr>
+        <td>Date of Admission</td>
+        <td><input id="admissiondate" type="date" required/></td>
+      </tr>
+      <tr>
+        <td>Department Name</td>
+        <td>
+          <select id="deptname" required>
+            <option value="" disabled selected>Select Department..</option>
+            <option value="EEE">EEE</option>
+            <option value="ECE">ECE</option>
+            <option value="CSE">CSE</option>
+            <option value="MECH">MECH</option>
+            <option value="CIVIL">CIVIL</option>
+            <option value="IT">IT</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td>Prefer College Hostel</td>
+        <td>
+            <label><input type="radio" name="preferHostel" value="Yes" id="yes" required> Yes</label>
+            <label><input type="radio" name="preferHostel" value="No"id="no"> No</label>
+        </td>
+      </tr>
+      <tr>
+        <td>First Graduate</td>
+        <td>
+            <input type="checkbox" id="firstGraduate" name="firstGraduate" >
+            <label for="firstGraduate">Click if you are first graduate</label><br />
+        </td>
+      </tr>
+    </table>
+    <div id="result"></div>
+    <input type="submit" id="submit" name="submit" value="CONFIRM ADMISSION" />
+</form>
+<script src="index.js"></script>
+  </body>
+</html>

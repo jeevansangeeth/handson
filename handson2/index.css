@@ -1,0 +1,75 @@
+body {
+    background-image: url('https://avatars.mds.yandex.net/i?id=d72487e6132b1ec4c62d245c65a3991e3e8de03c-8425660-images-thumbs&n=13');
+    background-size: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-weight: bold;
+}
+
+h3#heading-york-admission {
+    color: #FFFFFF;
+    background-color: #00CCFF;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 50%;
+    font-family: Verdana;
+    padding: 5px;
+    border-radius: 6px;
+}
+
+table, tr, td {
+    width: 50%;
+    border-style: solid;
+    border-width: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 1px;
+    border-radius: 6px;
+    color: #009900;
+    background-color: #F2F2F2;
+    padding: 1px;
+}
+#sname,
+#phno,
+#aid,
+#admissiondate,
+#deptname{
+    width: 95%;
+
+}
+
+div.results {
+    font-size: 20px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#submit {
+    color: #FFFFFF;
+    background-color: #00CCFF;
+    margin-left: 25%;
+    margin-right: auto;
+    padding: 5px;
+    width: 50%;
+    font-family: Verdana;
+    font-weight: bold;
+    border-radius: 6px;
+}
+
+#result {
+    color: #00CC66;
+    background-color: #FFFFFF;
+    margin-left: auto;
+    margin-right: auto;
+    /* padding: 5px; */
+    width: 50%;
+    font-size: 20px;
+    text-align: center;
+    
+}
+li{
+    list-style-type: none;
+    text-decoration: none;
+}
